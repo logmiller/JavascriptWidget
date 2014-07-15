@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery.min.js" charset="utf-8"></script>
+    <title>Javascript Widget</title>
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif; }
+        #holder { width: 300px;}
+    </style>
+
+</head>
+<body>
+
+<strong>Javascript Widget</strong>
+<div id="holder">
+    <div id="mktScroller_widget"></div>
+</div>
+
+<script type="text/javascript" src="js/JSONScriptRequest.min.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+
+    //<![CDATA[
+		//CreatorDomain = document.domain;
+		CreatorDomain = "www.inforum.com";
+		CreatorDomain = CreatorDomain.replace( /.*?(?:\.|$)/, '' );
+
+        // property variable
+        var mkttag = '';
+        var propertyID = '3';
+    //]]>
+    </script>
+<script type="text/javascript" src="js/scroll.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+    //<![CDATA[
+        // The web service call
+        var req  = 'http://widgets.fccinteractive.com/marketplaceV2/mktscroller/scroller.php?mktdmn=' + CreatorDomain + '&callback=marketplaceScrollerV2_callback';
+        // Create a new request object
+        Obj = new JSONscriptRequest(req);
+        // Build the dynamic script tag
+        Obj.buildScriptTag();
+        // Add the script tag to the page
+        Obj.addScriptTag();
+    //]]>
+    </script>
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+<script type="text/javascript">
+		var d = document.domain;
+		d = d.replace( /.*?(?:\.|$)/, '' );
+		try {
+		var pageTracker = _gat._getTracker("UA-778232-1");
+		pageTracker._setDomainName("." + d);
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+
+
+</body>
+</html>

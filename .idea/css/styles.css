@@ -1,0 +1,184 @@
+
+html, body {width: 100%; height: 100%; margin: 0; padding: 0; background-image:url(../images/bg.jpg); }
+
+section {margin: 0 auto; position: relative; width: 850px;}
+
+#code {margin-top: 60px;}
+
+
+/* OTHER */
+  #mktScroller_widget
+  {
+  	font-family: Arial, Helvetica, sans-serif;
+  	padding: 0 0 0 0;
+  	margin: 0 0 0 0;
+  	font-size: 13px;
+  	width: 300px;
+  	height: 305px;
+  	background-color: transparent;
+  	text-align: left;
+  	overflow:hidden;
+  }
+
+  #mktScroller_widget #header
+  {
+  	background-image: url('http://widgets.fccinteractive.com/marketplaceV2/mktscroller/images/header.png');
+  	background-repeat: no-repeat;
+  	height: 39px;
+  }
+
+  #mktScroller_widget #offers
+  {
+  	border-left: 1px solid #B0B0B0;
+  	border-right: 1px solid #B0B0B0;
+  	padding: 0 5px 5px 5px;
+  	background-color: #fff;
+
+  }
+
+
+  #mktScroller_widget .headertext
+  {
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 13px;
+  	padding: 7px 5px 0px 40px;
+  	margin: 0;
+  	color: #427034;
+  	text-align:left;
+  	font-weight: bold;
+  }
+
+
+  #mktScroller_widget .row
+  {
+  	padding: 10px 0;
+  	margin: 0;
+  	height: 175px;
+  	text-align: left;
+  }
+
+  #mktScroller_widget .buttons
+  {
+  	float: right;
+  	padding: 5px;
+  }
+
+  #mktScroller_widget img { border: 0; }
+  #mktScroller_widget .buttons img { padding: 1px; }
+  #mktScroller_widget .tagline { padding: 5px; }
+  #mktScroller_widget .offer { padding: 15px 0 5px 0; clear:both; }
+  #mktScroller_widget .addbusiness { padding: 5px 0 0 0; }
+
+  #mktScroller_widget .logo
+  {
+  	padding: 3px 5px;
+  }
+
+  #mktScroller_widget #scrollerFooter
+  {
+  	margin: 0;
+  	background: url('http://widgets.fccinteractive.com/marketplaceV2/mktscroller/images/footer.png') bottom no-repeat;
+  	width: 300px;
+  	height: 27px;
+  	text-align: center;
+  	font-size: 11px;
+  }
+
+  #mktScroller_widget #scrollerFooter span
+  {
+  	display: block;
+  	padding-top: 7px;
+  }
+
+  #mktScroller_widget #footer_buttons
+  {
+  	clear: both;
+  	padding: 4px 0;
+  	overflow: hidden;
+  }
+
+  #mktScroller_widget #viewoffersHolder
+  {
+  	width: 147px;
+  	float: left;
+  }
+
+  #mktScroller_widget #viewoffers
+  {
+  	display: block;
+  	width: 147px;
+  	height: 30px;
+  	background: url('images/viewoffers.png') no-repeat 0 0;;
+
+  }
+  #mktScroller_widget #viewoffers:hover { background-position: 0 -30px; }
+  #mktScroller_widget #viewoffers span { display: none; }
+
+  #mktScroller_widget #addbusinessHolder
+  {
+  	width: 147px;
+  	float: right;
+  }
+
+  #mktScroller_widget #addbusiness
+  {
+  	display: block;
+  	width: 147px;
+  	height: 30px;
+  	background: url('images/addbusiness.png') no-repeat 0 0;;
+
+  }
+  #mktScroller_widget #addbusiness:hover { background-position: 0 -30px; }
+  #mktScroller_widget #addbusiness span { display: none; }
+
+
+
+  #mktScroller_widget .row a:link, #mktScroller_widget .row a:active, #mktScroller_widget .row a:visited {text-decoration: none; font-weight: bold; color: #000;}
+  #mktScroller_widget .row a:hover {text-decoration: underline;}
+
+  #mktScroller_widget .row_noline a:link, #mktScroller_widget .row_noline a:active, #mktScroller_widget .row_noline a:visited {text-decoration: none; font-weight: bold; color: #000;}
+  #mktScroller_widget .row_noline a:hover {text-decoration: underline;}
+
+  #mktScroller_widget #scrollerFooter a:link, #mktScroller_widget #scrollerFooter a:active, #mktScroller_widget #scrollerFooter a:visited {text-decoration: none; color: #000;}
+  #mktScroller_widget #scrollerFooter a:hover {text-decoration: underline;}
+
+  /* easyslider styles */
+  #slider ul, #slider li
+  {
+  	margin:0;
+  	padding:0;
+  	list-style:none;
+  }
+
+  #slider
+  {
+  	width: 286px;
+  	height: 200px;
+  	overflow:hidden;
+  }
+
+  #slider li
+  {
+  	height: 200px;
+  	width: 286px;
+  	overflow: hidden;
+  }
+
+  #mktScroller_navigation {
+  	width: 28px;
+  	margin-top: -232px;
+  	margin-left: 257px;
+  	float: left;
+  }
+
+  /* flowplayer styles */
+
+  div.overlay
+  {
+  	background-image:	url('http://widgets.fccinteractive.com/marketplaceV2/mktscroller/images/marketplaceOfferOverlay.png');
+  	background-repeat:	no-repeat;
+  	padding:			40px;
+  	width:				640px;
+  	display:			none;
+  }
+  div.overlay div.close
